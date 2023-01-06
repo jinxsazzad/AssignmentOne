@@ -1,4 +1,266 @@
-*{
+/* Body Style */
+* {
     margin: 0px;
     padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Universal Style */
+.btn {
+    height: 65px;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: 800px;
+    color: #f15b22;
+    border: none;
+    padding: 10px 25px;
+}
+
+/* Navigation Style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+.nav-tittle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.btn-nav {
+    padding: 10px 15px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+}
+
+
+/* Header Style */
+header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+}
+
+header .header-containar {
+    float: right;
+    width: 525px;
+    height: auto;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.header-tittle {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.header-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+}
+
+.btn-header {
+    float: right;
+    margin-top: 30px;
+}
+
+/* Section Previous Year Style */
+.previous-year {
+    display: flex;
+    margin: 100px 200px;
+}
+
+.img-profile {
+    width: 500px;
+    height: 550px;
+    margin-right: 150px;
+}
+
+.previous-year-text {
+    padding: 13% 1%;
+}
+
+.previous-year-tittle {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.previous-year-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+
+}
+
+.contrary-list {
+    list-style: none;
+    padding-top: 15px;
+}
+
+.contrary-list li:before {
+    content: '✓';
+    color: #02f70a;
+    margin-right: 7px;
+}
+
+/* Section My Plane Style */
+
+.my-plane {
+    background: #ffaf69;
+    padding: 2px 1px;
+    margin: 0px 200px;
+    border-radius: 10px;
+}
+
+.my-plane-tittle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 2%;
+}
+
+.my-plane-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.my-plan-card {
+    text-align: center;
+}
+
+.my-plan-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.my-plane-content-tittle {
+    font-size: 30px;
+    font-weight: 700px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.my-plane-paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20%;
+    color: #737272;
+}
+
+/* Section Call Now Style */
+.call-now {
+    margin: 50px 200px;
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, rgba(229, 22, 22, 0), rgb(255, 119, 0)), url(../images/watch.png);
+}
+
+.call-now-content {
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-top: 60px;
+    width: 50%;
+}
+
+.btn-press {
+    margin-top: 5%;
+    font-weight: 800;
+}
+
+/* Section footer Style */
+footer {
+    background: #000;
+    color: #F8F8F8;
+}
+
+.footer-content {
+    padding-top: 5%;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.future-tittle {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.future-content {
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    margin-top: 5%;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+
+}
+
+.social-link li {
+    margin-right: 10px;
+}
+
+.subscribe-tittle {
+    font-size: 25px;
+    font-weight: 600px;
+    padding-bottom: 20px;
+}
+
+.input-box {
+    width: 250px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #000;
+}
+
+::placeholder {
+    padding: 10px 20px;
+    color: #FFFFFF;
 }

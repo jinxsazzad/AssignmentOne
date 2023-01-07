@@ -14,6 +14,12 @@
     color: #f15b22;
     border: none;
     padding: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 1px 1px 1px #717171;
+}
+
+button:hover {
+    box-shadow: none;
 }
 
 .primary-color {
@@ -33,6 +39,8 @@ nav {
 .nav-tittle {
     font-weight: 800;
     font-size: 45px;
+
+    text-shadow: 1px 1px 1px #717171;
 }
 
 nav ul {
@@ -45,11 +53,19 @@ nav li {
     margin-left: 20px;
 }
 
+nav ul li a:hover {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: none;
+    border-bottom: 5px solid #f15b22;
+}
+
 nav ul li a {
     text-decoration: none;
     font-size: 25px;
     color: #000000;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .btn-nav {
@@ -61,22 +77,26 @@ nav ul li a {
     font-weight: 700;
     font-size: 20px;
     color: #ffff;
+    text-shadow: 1px 1px 1px #717171;
 }
 
+hr {
+    margin: 25px 0px;
+}
 
 /* Header Style */
 header {
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
     width: auto;
-    height: 800px;
+    height: 700px;
 }
 
 header .header-container {
     float: right;
     width: 525px;
     height: auto;
-    margin-top: 200px;
+    margin-top: 5%;
     margin-right: 200px;
 }
 
@@ -86,6 +106,8 @@ header .header-container {
     text-align: right;
     color: #151414;
     margin-bottom: 25px;
+
+    text-shadow: 2px 2px 4px #717171;
 }
 
 .header-paragraph {
@@ -98,12 +120,38 @@ header .header-container {
 .btn-header {
     float: right;
     margin-top: 30px;
+    background-color: #f15b22;
+    color: #F8F8F8;
+    font-weight: bold;
+}
+
+/* Section New Year Wish */
+.new-year-wish {
+    margin: 50px 200px;
+    text-align: center;
+    padding-top: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.new-year-tittle {
+    font-size: 75px;
+    padding-bottom: 5%;
+    text-shadow: 3px 3px 3px #b4b4b4;
+}
+
+.new-year-massage {
+    font-size: 35px;
+    font-weight: 100;
+    color: #f15b22;
+    text-shadow: 2px 2px 4px #c7c6c6;
+    padding-bottom: 100px;
 }
 
 /* Section Previous Year Style */
 .previous-year {
     display: flex;
-    margin: 100px 200px;
+    margin: 50px 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img-profile {
@@ -144,10 +192,10 @@ header .header-container {
 /* Section My Plane Style */
 
 .my-plane {
-    background: #ffaf69;
     padding: 2px 1px;
     margin: 0px 200px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .my-plane-tittle {
@@ -156,16 +204,25 @@ header .header-container {
     font-size: 40px;
     color: #151414;
     margin-top: 2%;
+    margin-bottom: 5%;
+
 }
 
 .my-plane-content {
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
+    margin-bottom: 50px;
 }
 
 .my-plan-card {
     text-align: center;
+    padding: 20px 15px;
+    border-radius: 5px;
+    border-top: 10px solid #f15b22;
+    border-left: 1px solid #f15b22;
+    border-right: 1px solid #f15b22;
+    border-bottom: 1px solid #f15b22;
 }
 
 .my-plan-icon {
@@ -183,7 +240,6 @@ header .header-container {
 .my-plane-paragraph {
     font-weight: 500;
     font-size: 20px;
-    margin-bottom: 20%;
     color: #737272;
 }
 
@@ -194,6 +250,8 @@ header .header-container {
     height: 300px;
     border-radius: 10px;
     background-image: linear-gradient(to left, rgba(229, 22, 22, 0), rgb(255, 119, 0)), url(../images/watch.png);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .call-now-content {

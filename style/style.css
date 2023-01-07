@@ -15,7 +15,9 @@
     border: none;
     padding: 10px 25px;
 }
-
+.primary-color{
+    color: #f15b22;
+}
 /* Navigation Style */
 
 nav {
@@ -232,6 +234,7 @@ footer {
     font-weight: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 50%;
 }
 
 .social-link {
@@ -246,6 +249,9 @@ footer {
     margin-right: 10px;
 }
 
+.subscribe{
+    width: 50%;
+}
 .subscribe-tittle {
     font-size: 25px;
     font-weight: 600px;

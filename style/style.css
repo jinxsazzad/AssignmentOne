@@ -15,9 +15,11 @@
     border: none;
     padding: 10px 25px;
 }
-.primary-color{
+
+.primary-color {
     color: #f15b22;
 }
+
 /* Navigation Style */
 
 nav {
@@ -70,7 +72,7 @@ header {
     height: 800px;
 }
 
-header .header-containar {
+header .header-container {
     float: right;
     width: 525px;
     height: auto;
@@ -249,9 +251,6 @@ footer {
     margin-right: 10px;
 }
 
-.subscribe{
-    width: 50%;
-}
 .subscribe-tittle {
     font-size: 25px;
     font-weight: 600px;
